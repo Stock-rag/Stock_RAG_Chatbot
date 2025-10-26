@@ -1,0 +1,62 @@
+% ==============================================================================
+% REQUIRED LATEX PACKAGES FOR FINDINGS SECTION
+% ==============================================================================
+% Add these to your preamble (before \begin{document})
+
+% Tables
+\usepackage{booktabs}       % Professional-looking tables
+\usepackage{multirow}       % Multi-row cells in tables
+\usepackage{array}          % Enhanced table formatting
+
+% Graphics and Figures
+\usepackage{graphicx}       % Include images
+\usepackage{float}          % Better figure placement (H option)
+\usepackage{caption}        % Customize captions
+\usepackage{subcaption}     % Subfigures support
+
+% Plotting and Diagrams
+\usepackage{pgfplots}       % Create plots with TikZ
+\pgfplotsset{compat=1.18}   % Set pgfplots compatibility version
+\usepackage{tikz}           % Create diagrams
+\usetikzlibrary{patterns}   % Patterns for fills
+\usepackage{pgf-pie}        % Pie charts
+
+% Colors
+\usepackage{xcolor}         % Define and use colors
+
+% Math (if needed)
+\usepackage{amsmath}        % Enhanced math support
+\usepackage{amssymb}        % Math symbols
+
+% Citations and References
+\usepackage[
+    backend=biber,          % Use biber as backend
+    style=ieee,             % IEEE citation style (or use 'numeric', 'apa', etc.)
+    sorting=none            % Citations appear in order of use
+]{biblatex}
+\addbibresource{references.bib}  % Your bibliography file
+
+% Hyperlinks (optional but recommended)
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue
+}
+
+% ==============================================================================
+% EXAMPLE MINIMAL DOCUMENT STRUCTURE
+% ==============================================================================
+
+% \documentclass{article}
+%
+% % Add all the packages above here
+%
+% \begin{document}
+%
+% \input{FINDINGS_LATEX.tex}
+%
+% \printbibliography
+%
+% \end{document}

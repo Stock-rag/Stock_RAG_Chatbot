@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+--blue-600: #0b63a8;
+--blue-500: #0e73c2;
+--accent-yellow: #ffcc33;
+}
+
+
+html,body,#root{height:100%}
+body{background:linear-gradient(180deg,#0f4f87 0%, #0b63a8 60%);}

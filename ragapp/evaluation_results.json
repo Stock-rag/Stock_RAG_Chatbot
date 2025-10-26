@@ -1,0 +1,21 @@
+{
+  "retrieval": {
+    "precision@2": 0.1,
+    "recall@2": 0.055,
+    "mrr": 0.14
+  },
+  "generation": {
+    "rouge1": 0.12675840563088045,
+    "rouge2": 0.04819975724524327,
+    "rougeL": 0.10621768016319902,
+    "bertscore_precision": 0.8135139346122742,
+    "bertscore_recall": 0.8466368913650513,
+    "bertscore_f1": 0.8293344378471375
+  },
+  "metadata": {
+    "retrieval_samples": 50,
+    "generation_samples": 20,
+    "total_time_seconds": 368.8508450984955,
+    "dataset": "dataset/tatqa_dataset_dev.json"
+  }
+}
