@@ -297,4 +297,4 @@ This is **exactly** the kind of nuanced, honest evaluation that gets good marks 
 ---
 
 **Total Evaluation:** 50 retrieval samples, 20 generation samples, 368.85 seconds
-**Results File:** `/Users/brijeshmuralikrishnan/Downloads/RAG-ragfull/ragapp/evaluation_results.json`
+**Results File:** `/path/to/RAG-ragfull/ragapp/evaluation_results.json`

@@ -135,10 +135,10 @@ Key Takeaway: Your generation quality is excellent (BERTScore 0.83).
 ================================================================================
 
 📁 Main Results File:
-   /Users/brijeshmuralikrishnan/Downloads/RAG-ragfull/ragapp/evaluation_results.json
+   /path/to/RAG-ragfull/ragapp/evaluation_results.json
 
 📄 Ready-to-Use Report Text:
-   /Users/brijeshmuralikrishnan/Downloads/RAG-ragfull/YOUR_REPORT_FINDINGS.md
+   /path/to/RAG-ragfull/YOUR_REPORT_FINDINGS.md
 
    ⭐ This file contains complete Findings section with your actual numbers!
    ⭐ Just copy-paste into your WIL report!
@@ -166,7 +166,7 @@ Key Takeaway: Your generation quality is excellent (BERTScore 0.83).
 ================================================================================
 
 1. Open this file:
-   /Users/brijeshmuralikrishnan/Downloads/RAG-ragfull/YOUR_REPORT_FINDINGS.md
+   /path/to/RAG-ragfull/YOUR_REPORT_FINDINGS.md
 
 2. Copy the content (Sections 4.2 through 4.7)
 

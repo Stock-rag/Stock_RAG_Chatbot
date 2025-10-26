@@ -15,13 +15,13 @@ A complete RAG (Retrieval-Augmented Generation) chatbot application that answers
 
 **Terminal 1 - Start Backend:**
 ```bash
-cd /Users/brijeshmuralikrishnan/Downloads/RAG-ragfull
+cd /path/to/RAG-ragfull
 ./run_backend.sh
 ```
 
 **Terminal 2 - Start Frontend:**
 ```bash
-cd /Users/brijeshmuralikrishnan/Downloads/RAG-ragfull
+cd /path/to/RAG-ragfull
 ./run_frontend.sh
 ```
 

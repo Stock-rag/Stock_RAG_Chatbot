@@ -59,7 +59,7 @@ The application has 3 main components:
 ### Step 1: Navigate to Project Directory
 
 ```bash
-cd /Users/brijeshmuralikrishnan/Downloads/RAG-ragfull/ragapp
+cd /path/to/RAG-ragfull/ragapp
 ```
 
 ### Step 2: Set Up Python Backend
@@ -104,14 +104,14 @@ pip install sentence-transformers chromadb nltk
 mkdir -p ~/models/LFM2-1.2B-RAG
 
 # Run the model download script
-cd /Users/brijeshmuralikrishnan/Downloads/RAG-ragfull/ragapp
+cd /path/to/RAG-ragfull/ragapp
 python llm/model_save.py
 ```
 
 **Option B: Update the model path**
 Edit `llm/model_load.py` and change line 16:
 ```python
-def load_model(local_path="/Users/brijeshmuralikrishnan/models/LFM2-1.2B-RAG"):
+def load_model(local_path="/path/to/models/LFM2-1.2B-RAG"):
 ```
 
 ### Step 3: Populate the Vector Database
@@ -119,7 +119,7 @@ def load_model(local_path="/Users/brijeshmuralikrishnan/models/LFM2-1.2B-RAG"):
 Before running the server, you need to create the embeddings database:
 
 ```bash
-cd /Users/brijeshmuralikrishnan/Downloads/RAG-ragfull/ragapp
+cd /path/to/RAG-ragfull/ragapp
 
 # Run the embedding pipeline
 python -c "from embeder import embedder; embedder()"
@@ -146,7 +146,7 @@ Embedding pipeline completed successfully!
 The Node.js server is optional - the FastAPI server can work standalone.
 
 ```bash
-cd /Users/brijeshmuralikrishnan/Downloads/RAG-ragfull/ragapp/server
+cd /path/to/RAG-ragfull/ragapp/server
 
 # Install dependencies
 npm install
@@ -155,7 +155,7 @@ npm install
 ### Step 5: Set Up React Frontend
 
 ```bash
-cd /Users/brijeshmuralikrishnan/Downloads/RAG-ragfull/ragapp/client
+cd /path/to/RAG-ragfull/ragapp/client
 
 # Install dependencies
 npm install
@@ -172,7 +172,7 @@ You need to run 2 services in separate terminals:
 #### Terminal 1: Start FastAPI Backend
 
 ```bash
-cd /Users/brijeshmuralikrishnan/Downloads/RAG-ragfull/ragapp
+cd /path/to/RAG-ragfull/ragapp
 
 # Activate virtual environment if not already active
 source venv/bin/activate
@@ -197,7 +197,7 @@ Open browser and go to:
 #### Terminal 2: Start React Frontend
 
 ```bash
-cd /Users/brijeshmuralikrishnan/Downloads/RAG-ragfull/ragapp/client
+cd /path/to/RAG-ragfull/ragapp/client
 
 # Start the development server
 npm run dev
@@ -360,7 +360,7 @@ RAG-ragfull/
 
 ```bash
 # 1. Install Python dependencies
-cd /Users/brijeshmuralikrishnan/Downloads/RAG-ragfull/ragapp
+cd /path/to/RAG-ragfull/ragapp
 pip install fastapi uvicorn transformers torch sentence-transformers chromadb nltk
 
 # 2. Download and setup the model (update path in llm/model_save.py first!)

@@ -118,7 +118,7 @@ def main():
         print("  1. Ensure ChromaDB is populated:")
         print("     python -c \"from embeder import embedder; embedder()\"")
         print("  2. Start the backend:")
-        print("     cd /Users/brijeshmuralikrishnan/Downloads/RAG-ragfull")
+        print("     cd /path/to/RAG-ragfull")
         print("     ./run_backend.sh")
         print("  3. Start the frontend:")
         print("     ./run_frontend.sh")

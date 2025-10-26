@@ -137,7 +137,7 @@ are derived from retrieval performance analysis.
 
 **How to run:**
 ```bash
-cd /Users/brijeshmuralikrishnan/Downloads/RAG-ragfull/ragapp
+cd /path/to/RAG-ragfull/ragapp
 pip install ragas langchain langchain-community
 export OPENAI_API_KEY='your-key-here'
 python run_ragas_evaluation.py --num_samples 20
@@ -464,7 +464,7 @@ Good luck with your WIL project! 🚀📚
 
 **Files Location:**
 ```
-/Users/brijeshmuralikrishnan/Downloads/RAG-ragfull/
+/path/to/RAG-ragfull/
 ├── FINDINGS_LATEX.tex          ← Main content
 ├── references.bib              ← Citations
 ├── LATEX_PACKAGES.tex          ← Package list

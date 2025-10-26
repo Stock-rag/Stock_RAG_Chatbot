@@ -39,7 +39,7 @@ elif not isinstance(reference_answer, str):
 Simply run the command again:
 
 ```bash
-cd /Users/brijeshmuralikrishnan/Downloads/RAG-ragfull
+cd /path/to/RAG-ragfull
 ./run_evaluation.sh
 ```
 

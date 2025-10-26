@@ -200,7 +200,7 @@ TEST 4: Use Frontend Chat Interface
 
 TEST 5: Run Component Tests (Optional)
 ---------------------------------------
-cd /Users/brijeshmuralikrishnan/Downloads/RAG-ragfull/ragapp
+cd /path/to/RAG-ragfull/ragapp
 python test_setup.py
 
 This tests:
